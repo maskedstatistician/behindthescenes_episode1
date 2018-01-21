@@ -1,0 +1,15 @@
+
+#for the first upload on githb
+echo "# behindthescenes_episode1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:maskedstatistician/behindthescenes_episode1.git
+git push -u origin master
+
+
+#push stuff in a repertory that already exist 
+git add R
+git commit -m "R script"
+git push
+
